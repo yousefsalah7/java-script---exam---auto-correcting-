@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+     <link rel='stylesheet' type='text/css' media='screen' href='start.css'>
+    </head>
+<body>
+    <div id="contianer">
+        <header id="header">
+                    <h1 style="color: rgb(228, 228, 220);margin-bottom: 0px;margin-left:50px ;margin-top: 5px;font-family: Georgia;">IT - Exam <span>
+                        <img  src="sign-stop-icon-png-web-icons-png-365119.png" alt="stop" width="60" height="60" style="float: right;margin-right: 50px;" onclick="stopTime(),Result()">
+                        <img src="360_F_232184084_qmfE38fMfZ0CGvcwnDbmTbDp1117CO3t.jpg" alt="stop" width="60" height="60" style="float: right; margin-right: 150px;">
+                         <p id="timer" style="color: beige; float: right; margin-right: 50px;margin-top: 10px;visibility: hidden;">00:00</p>
+                        </span>
+                    </h1>
+                    <h3 style="color: beige;margin-top: 0px;margin-left:50px">Student Name : <span id="span">..........</span> </h3>
+                    
+                   
+
+        </header>
+        <div id="result"> you have got 0 of 5  </div>
+        <h2 id="cho" style="font-family: Georgia;margin-left: 430px;margin-top: 70px;">Select Your name ? </h2>
+        <select id="stdn" onchange="run()">
+            <option value="..........">..........</option>
+            <option value="mohamed ali">mohamed ali</option>
+            <option value="sarkawy">sarkawy</option>
+            <option value="Adroos">Adroos</option>
+        </select>
+        <div class="ques"></div>
+        <div class="anses"></div>
+        
+        <footer id="footer" >
+            <button id="start">START</button>
+            <button id="next"></button>
+            <button id="previous"></button>
+            <button id="submit">SubMit AnswerS</button>
+        </footer>
+        
+    </div>
+    <script src='qws.js'></script>
+    <script src='start.js'></script>
+
+</body>
+</html>
